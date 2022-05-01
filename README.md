@@ -6,5 +6,5 @@ HW 2:\
 HW 3:\
 HW 4:\
 HW 5: Weather Station\
-HW 6: Voting Booth\
+HW 6: Voting Booth
 
