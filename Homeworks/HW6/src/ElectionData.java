@@ -1,19 +1,19 @@
-import java.util.Hashtable;
+import java.util.HashMap;
 
 /**
  * Class which holds all election data and related handling functions
  */
 class ElectionData {
-    private Hashtable<String, Integer> firstVotes;
-    private Hashtable<String, Integer> secondVotes;
-    private Hashtable<String, Integer> thirdVotes;
+    private HashMap<String, Integer> firstVotes;
+    private HashMap<String, Integer> secondVotes;
+    private HashMap<String, Integer> thirdVotes;
 
     //private Scanner keyboard = new Scanner(System.in);
 
     public ElectionData() {
-        firstVotes = new Hashtable<String, Integer>();
-        secondVotes = new Hashtable<String, Integer>();
-        thirdVotes = new Hashtable<String, Integer>();
+        firstVotes = new HashMap<String, Integer>();
+        secondVotes = new HashMap<String, Integer>();
+        thirdVotes = new HashMap<String, Integer>();
     }
 
     /**
